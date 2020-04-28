@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_4208755560d747138e7d287d804df8d9 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_4208755560d747138e7d287d804df8d9" ></div>
+        
+</body>
+<script>    
+    
+            var map_4208755560d747138e7d287d804df8d9 = L.map(
+                "map_4208755560d747138e7d287d804df8d9",
+                {
+                    center: [37.569473, -77.478897],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+            L.control.scale().addTo(map_4208755560d747138e7d287d804df8d9);
+
+            
+
+        
+    
+            var tile_layer_9e2684684efe428ba576246476904d19 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_4208755560d747138e7d287d804df8d9);
+        
+    
+            var marker_1f604e4913d147619346359c18d930fc = L.marker(
+                [37.59323130239684, -77.47341871259454],
+                {}
+            ).addTo(map_4208755560d747138e7d287d804df8d9);
+        
+    
+            var icon_b4e382a76d874bf8be7e65b1aa7a6097 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_1f604e4913d147619346359c18d930fc.setIcon(icon_b4e382a76d874bf8be7e65b1aa7a6097);
+        
+    
+        var popup_3d826cd49ba9431680930c2cb32fce59 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3d37aa61857840b19a427b5ac92e7552 = $(`<div id="html_3d37aa61857840b19a427b5ac92e7552" style="width: 100.0%; height: 100.0%;">Bryan Park - Walk</div>`)[0];
+            popup_3d826cd49ba9431680930c2cb32fce59.setContent(html_3d37aa61857840b19a427b5ac92e7552);
+        
+
+        marker_1f604e4913d147619346359c18d930fc.bindPopup(popup_3d826cd49ba9431680930c2cb32fce59)
+        ;
+
+        
+    
+    
+            var marker_7181ade6d755420e9879315b334cd4b9 = L.marker(
+                [37.58641748486319, -77.53246591656692],
+                {}
+            ).addTo(map_4208755560d747138e7d287d804df8d9);
+        
+    
+            var icon_616d1bc9b850447fbef15a9ea6bc72b1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_7181ade6d755420e9879315b334cd4b9.setIcon(icon_616d1bc9b850447fbef15a9ea6bc72b1);
+        
+    
+        var popup_cdc2fe3f86ee41ebae703080adb7717c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_066aaa0f97ec4b838e77b3aaf53645f5 = $(`<div id="html_066aaa0f97ec4b838e77b3aaf53645f5" style="width: 100.0%; height: 100.0%;">Bandy field - Other</div>`)[0];
+            popup_cdc2fe3f86ee41ebae703080adb7717c.setContent(html_066aaa0f97ec4b838e77b3aaf53645f5);
+        
+
+        marker_7181ade6d755420e9879315b334cd4b9.bindPopup(popup_cdc2fe3f86ee41ebae703080adb7717c)
+        ;
+
+        
+    
+    
+            var marker_56eaf368d2b149ae81bec00930975a5b = L.marker(
+                [37.550487896765304, -77.51817431113108],
+                {}
+            ).addTo(map_4208755560d747138e7d287d804df8d9);
+        
+    
+            var icon_aeafe6abfc244274a3da88daefbba86f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_56eaf368d2b149ae81bec00930975a5b.setIcon(icon_aeafe6abfc244274a3da88daefbba86f);
+        
+    
+        var popup_f490771114824d70b8f3f04fad776f09 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_46a0e53405824122bc45cf6d5e91b562 = $(`<div id="html_46a0e53405824122bc45cf6d5e91b562" style="width: 100.0%; height: 100.0%;">Pony Pasture - Run</div>`)[0];
+            popup_f490771114824d70b8f3f04fad776f09.setContent(html_46a0e53405824122bc45cf6d5e91b562);
+        
+
+        marker_56eaf368d2b149ae81bec00930975a5b.bindPopup(popup_f490771114824d70b8f3f04fad776f09)
+        ;
+
+        
+    
+    
+            var marker_e481693f3e044393a6c19897ba09cf6b = L.marker(
+                [37.54374, -77.56811],
+                {}
+            ).addTo(map_4208755560d747138e7d287d804df8d9);
+        
+    
+            var icon_67601f52e9a84a5ba96c1f3452bd49c6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_e481693f3e044393a6c19897ba09cf6b.setIcon(icon_67601f52e9a84a5ba96c1f3452bd49c6);
+        
+    
+        var popup_e76b5d2456b24e299ca03ef741abbaae = L.popup({"maxWidth": "100%"});
+
+        
+            var html_730180448b9a4fc39887af81f3a92adf = $(`<div id="html_730180448b9a4fc39887af81f3a92adf" style="width: 100.0%; height: 100.0%;">Larus - Hike</div>`)[0];
+            popup_e76b5d2456b24e299ca03ef741abbaae.setContent(html_730180448b9a4fc39887af81f3a92adf);
+        
+
+        marker_e481693f3e044393a6c19897ba09cf6b.bindPopup(popup_e76b5d2456b24e299ca03ef741abbaae)
+        ;
+
+        
+    
+    
+            var marker_8b3d544978e44c97bca66cb0f382cbaf = L.marker(
+                [37.54345, -77.47768],
+                {}
+            ).addTo(map_4208755560d747138e7d287d804df8d9);
+        
+    
+            var icon_714a046a356b47dfb6418f2a04612ffe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_8b3d544978e44c97bca66cb0f382cbaf.setIcon(icon_714a046a356b47dfb6418f2a04612ffe);
+        
+    
+        var popup_0a4e42f27ed2497e8ac69f46e5a58acd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1d1c4db25fa541fe85ab167115da36e9 = $(`<div id="html_1d1c4db25fa541fe85ab167115da36e9" style="width: 100.0%; height: 100.0%;">Byrd Park - Walk</div>`)[0];
+            popup_0a4e42f27ed2497e8ac69f46e5a58acd.setContent(html_1d1c4db25fa541fe85ab167115da36e9);
+        
+
+        marker_8b3d544978e44c97bca66cb0f382cbaf.bindPopup(popup_0a4e42f27ed2497e8ac69f46e5a58acd)
+        ;
+
+        
+    
+    
+            var marker_ea635e7f98104ba08c7f75590b380721 = L.marker(
+                [37.53549938542502, -77.45643056882572],
+                {}
+            ).addTo(map_4208755560d747138e7d287d804df8d9);
+        
+    
+            var icon_9469eef6551045a989caebd91d300a80 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_ea635e7f98104ba08c7f75590b380721.setIcon(icon_9469eef6551045a989caebd91d300a80);
+        
+    
+        var popup_8f7dd54c159349e98e9521b14180a902 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_63e6e3eacd8249eaa07b3cbbad25fce6 = $(`<div id="html_63e6e3eacd8249eaa07b3cbbad25fce6" style="width: 100.0%; height: 100.0%;">Hollywood Cemetery - Walk</div>`)[0];
+            popup_8f7dd54c159349e98e9521b14180a902.setContent(html_63e6e3eacd8249eaa07b3cbbad25fce6);
+        
+
+        marker_ea635e7f98104ba08c7f75590b380721.bindPopup(popup_8f7dd54c159349e98e9521b14180a902)
+        ;
+
+        
+    
+    
+            var marker_1e78cf251b2b41bbb0f5d8db6a94baf0 = L.marker(
+                [37.54185513551326, -77.47592926023239],
+                {}
+            ).addTo(map_4208755560d747138e7d287d804df8d9);
+        
+    
+            var icon_1cca6976ceb64e5a8cb7dc92f8682bc8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_1e78cf251b2b41bbb0f5d8db6a94baf0.setIcon(icon_1cca6976ceb64e5a8cb7dc92f8682bc8);
+        
+    
+        var popup_d11b184a0be5452faa05494f6a2d2e1a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f9e4d539287d42b9a20863084f4b160a = $(`<div id="html_f9e4d539287d42b9a20863084f4b160a" style="width: 100.0%; height: 100.0%;">Byrd Park - Run</div>`)[0];
+            popup_d11b184a0be5452faa05494f6a2d2e1a.setContent(html_f9e4d539287d42b9a20863084f4b160a);
+        
+
+        marker_1e78cf251b2b41bbb0f5d8db6a94baf0.bindPopup(popup_d11b184a0be5452faa05494f6a2d2e1a)
+        ;
+
+        
+    
+    
+            var marker_eeef89cbc2204c6bb51fabab8d0a0cbb = L.marker(
+                [37.52630623331627, -77.4113770065122],
+                {}
+            ).addTo(map_4208755560d747138e7d287d804df8d9);
+        
+    
+            var icon_3f9ab1e25b204a84980c952d88315af6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_eeef89cbc2204c6bb51fabab8d0a0cbb.setIcon(icon_3f9ab1e25b204a84980c952d88315af6);
+        
+    
+        var popup_92cd4529de514696b3268edcc4af25f3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aa4962d9b24749ec95d5c39cc5e0cb5e = $(`<div id="html_aa4962d9b24749ec95d5c39cc5e0cb5e" style="width: 100.0%; height: 100.0%;">Chimborazo Park - Walk</div>`)[0];
+            popup_92cd4529de514696b3268edcc4af25f3.setContent(html_aa4962d9b24749ec95d5c39cc5e0cb5e);
+        
+
+        marker_eeef89cbc2204c6bb51fabab8d0a0cbb.bindPopup(popup_92cd4529de514696b3268edcc4af25f3)
+        ;
+
+        
+    
+    
+            var marker_67ff202e85694253bf2b39e8ad978201 = L.marker(
+                [37.53633, -77.47592],
+                {}
+            ).addTo(map_4208755560d747138e7d287d804df8d9);
+        
+    
+            var icon_e38ed6bdaa8d420b93aa87e66a05112f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_67ff202e85694253bf2b39e8ad978201.setIcon(icon_e38ed6bdaa8d420b93aa87e66a05112f);
+        
+    
+        var popup_51855ad00fdc45b3bdc1a076863da118 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_10bca8ead0f74c6e83838984976d215e = $(`<div id="html_10bca8ead0f74c6e83838984976d215e" style="width: 100.0%; height: 100.0%;">Maymont Park - Walk</div>`)[0];
+            popup_51855ad00fdc45b3bdc1a076863da118.setContent(html_10bca8ead0f74c6e83838984976d215e);
+        
+
+        marker_67ff202e85694253bf2b39e8ad978201.bindPopup(popup_51855ad00fdc45b3bdc1a076863da118)
+        ;
+
+        
+    
+    
+            var marker_228fbae070e5490885b64a4694eb8759 = L.marker(
+                [0.005449714366404, 3.0953005847e-05],
+                {}
+            ).addTo(map_4208755560d747138e7d287d804df8d9);
+        
+    
+            var icon_bd3ae01a614e47b498d57777d685d6ac = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_228fbae070e5490885b64a4694eb8759.setIcon(icon_bd3ae01a614e47b498d57777d685d6ac);
+        
+    
+        var popup_6b077dfb57574faf8cc857b2ecb04560 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_703ff82c6c6c417c939104bd765443af = $(`<div id="html_703ff82c6c6c417c939104bd765443af" style="width: 100.0%; height: 100.0%;">Belle Isle - Hike</div>`)[0];
+            popup_6b077dfb57574faf8cc857b2ecb04560.setContent(html_703ff82c6c6c417c939104bd765443af);
+        
+
+        marker_228fbae070e5490885b64a4694eb8759.bindPopup(popup_6b077dfb57574faf8cc857b2ecb04560)
+        ;
+
+        
+    
+</script>
